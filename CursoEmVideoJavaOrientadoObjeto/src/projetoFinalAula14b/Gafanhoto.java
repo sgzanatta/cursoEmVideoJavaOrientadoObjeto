@@ -3,7 +3,7 @@ package projetoFinalAula14b;
 public class Gafanhoto extends Pessoa{
 	//CONSTRUTOR
 	public Gafanhoto(String nome, int idade, String sexo, String login) {
-		super(nome, idade, sexo);                    // construtores erdados da classe pessoa , que é a superclasse de gafanhoto
+		super(nome, idade, sexo);                    // construtores herdados da classe pessoa , que Ã© a superclasse de gafanhoto
 		this.login = login;
 		                       
 	}
